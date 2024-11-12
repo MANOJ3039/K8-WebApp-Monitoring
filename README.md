@@ -44,6 +44,3 @@ Before you begin, ensure you have the following installed:
 6. **Monitoring**:
    - Prometheus monitors the AKS cluster and provides metrics for CPU, memory, and pod status.
    - Alerts are configured in Prometheus to notify on high CPU usage or other conditions.
-
-
-
