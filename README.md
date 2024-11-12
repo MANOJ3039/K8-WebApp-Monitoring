@@ -13,10 +13,10 @@ The solution includes:
 
 Before you begin, ensure you have the following installed:
 
-**Terraform**
-**Azure Subscription**
-**Docker**
-**Git & GitHub**
+1. **Terraform**
+2. **Azure Subscription**
+3. **Docker**
+4. **Git & GitHub**
 
 ## Achievements
 
