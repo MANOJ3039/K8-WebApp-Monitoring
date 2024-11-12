@@ -7,7 +7,7 @@ The solution includes:
 - Azure Infrastructure as Code (IaC) using Terraform to provision the AKS cluster.
 - Kubernetes deployment files for Prometheus and Grafana.
 - Logging and monitoring setup.
-- Instructions for deploying and accessing the application.
+- Deploying and accessing the application.
 
 ## Prerequisites
 
