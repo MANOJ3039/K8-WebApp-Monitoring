@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-alert-rules
+  namespace: monitoring
+data:
+  alerts.yml: |
+    groups:
+      - name: example-alert
+        rules:
+          - alert: HighCPUUsage
+            expr: node_cpu_seconds_total{job="kubernetes-nodes"} > 80
+            for: 5m
+            labels:
+              severity: warning
+            annotations:
+              summary: "High CPU usage detected on node"
+              description: "CPU usage is above 80% for more than 5 minutes."
